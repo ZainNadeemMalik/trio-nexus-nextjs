@@ -1,3 +1,5 @@
+"use client"
+
 import Link from "next/link"
 import styles from "./Homepage.module.css"
 import { SideBar } from "../components/sidebar-nav/Sidebar"
