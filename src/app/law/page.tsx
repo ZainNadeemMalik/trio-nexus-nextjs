@@ -1,6 +1,6 @@
 import Link from "next/link"
 import styles from "./LawPage.module.css"
-import { Article } from "./Articles"
+// import { Article } from "./Articles"
 
 const LawPage = () => {
   return (
@@ -137,7 +137,7 @@ const LawPage = () => {
       </div> */}
 
 
-<Article />
+{/* <Article /> */}
     </div>
   )
 }
