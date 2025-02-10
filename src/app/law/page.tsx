@@ -1,6 +1,9 @@
+"use client"
+
 import Link from "next/link"
 import styles from "./LawPage.module.css"
 // import { Article } from "./Articles"
+import { motion } from "framer-motion"
 
 const LawPage = () => {
   return (
@@ -138,6 +141,15 @@ const LawPage = () => {
 
 
 {/* <Article /> */}
+
+        <motion.div
+               initial={{ x: 100, opacity: 0 }}
+               whileInView={{ x: 0, opacity: 1 }}
+               viewport={{ once: true, amount: 0.2 }}
+               transition={{ duration: 1 }}>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit expedita aperiam quisquam assumenda sunt soluta nulla inventore consequuntur beatae aliquam dolor molestiae dolore ut alias aliquid repellendus pariatur, autem fugiat porro optio doloremque nemo. Corporis, quo. Autem quae distinctio ipsa repudiandae sapiente eius. Asperiores perspiciatis totam ipsum repudiandae veniam dolore.</p>
+        </motion.div>
+
     </div>
   )
 }

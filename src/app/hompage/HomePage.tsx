@@ -4,7 +4,7 @@ import Link from "next/link"
 import styles from "./Homepage.module.css"
 import { SideBar } from "../components/sidebar-nav/Sidebar"
 import { Footer } from "../components/footer/Footer"
-// import { motion } from "framer-motion"
+import { motion } from "framer-motion"
 
 
 
@@ -110,11 +110,15 @@ export const HomePage = () => {
 
         <h2 className={styles.blogArticlesTitle}>Our Blog Articles</h2>
 
-      <div
+      <motion.div
       // initial={{ opacity: 0, x: 20 }}
       // whileInView={{ opacity: 1, x: 0 }}
       // transition={{ duration: 1, ease: "easeOut" }}
       // viewport={{ once: true }}
+      initial={{ x: 100, opacity: 0 }}
+      whileInView={{ x: 0, opacity: 1 }}
+      viewport={{ once: true, amount: 0.2 }}
+      transition={{ duration: 1 }}
       className={styles.blogArticleWrapper}>
 
         <div className={styles.blogArticle}>
@@ -169,7 +173,7 @@ export const HomePage = () => {
 
   </div>
 
-</div>
+</motion.div>
 
 <div className={styles.blogArticlesWrapper2}>
 
