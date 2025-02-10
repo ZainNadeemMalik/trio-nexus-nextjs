@@ -1,0 +1,171 @@
+.lawPage {
+
+}
+
+.lawPage > section {
+  padding: 1rem;
+}
+
+/* ---------------HERO SECTION--------------- */
+
+.hero {
+  margin-bottom: 100rem;
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  align-items: center;
+  color: white;
+  /* background-image: 
+  linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  url('../../assets/istockphoto-1347652268-612x612.jpg'); */
+  background-blend-mode: darken;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero > div {
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeInDown 1000ms ease-out forwards;
+  padding: 1rem;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px); /* Start from slightly below */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* End at normal position */
+  }
+}
+
+.hero > div {
+  max-width: 1200px;
+}
+
+.hero > div > h1 {
+  letter-spacing: 0.25rem;
+  font: var(--h1);
+  margin-bottom: 1rem;
+  color: gold;
+}
+
+.hero > div > p {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  max-width: 40ch;
+}
+
+.callToActionBtn {
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.5rem;
+  padding: .75em 1.5em;
+  background-color: limegreen;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+
+.callToActionBtn:hover {
+  background-color: green;
+}
+
+.lawPageImageContainer {
+  
+}
+
+/* ----------------SERVICE GRID------------------- */
+
+.serviceGrid {
+  background-color: hsl(210, 100%, 20%);
+  padding: 2rem 1rem;
+}
+
+.serviceGrid > h2 {
+  color: gold;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.serviceGridWrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  padding-block: 2.5rem;
+  padding-inline: 1rem;
+  margin: 0 auto;
+  max-width: 1200px;
+  color: white;
+}
+
+.serviceGridWrapper > section {
+  border-radius: .5rem;
+  border: 1px solid white;
+  padding: 1rem;
+}
+
+.serviceGridWrapper > section > h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: gold;
+  line-height: 1;
+  text-align: center;
+}
+
+.serviceGridWrapper > section > ul {
+  list-style: none;
+}
+
+.serviceGridWrapper > section > ul > li{
+  margin-bottom: 0.5rem;
+}
+
+/* corporate And Business Law */
+
+.corporateAndBusinessLaw {
+
+}
+
+/* banking And Financial Law */
+
+.bankingAndFinancialLaw {
+
+}
+/* civil And Commercial Litigation */
+
+.civilAndCommercialLitigation {
+
+}
+
+/* family And Personal Law */
+
+.familyAndPersonalLaw {
+
+}
+
+/* executional Legal Services */
+
+.executionalLegalServices {
+
+
+}
+
+/* intellectual Property Law */
+
+.intellectualPropertyLaw {
+
+}
+
+/* international Legal Services */
+
+.internationalLegalServices {
+
+
+}
