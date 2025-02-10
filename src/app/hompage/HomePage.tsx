@@ -1,5 +1,5 @@
 import Link from "next/link"
-import styles from "./HomePage.module.css"
+import styles from "./Homepage.module.css"
 import { SideBar } from "../components/sidebar-nav/Sidebar"
 import { Footer } from "../components/footer/Footer"
 // import { motion } from "framer-motion"
