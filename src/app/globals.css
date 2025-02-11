@@ -51,7 +51,7 @@
 body {
   min-height: 100vh;
   font-weight: var(--fw-regular);
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 /* responsive images/videos */
