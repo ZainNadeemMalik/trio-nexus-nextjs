@@ -20,9 +20,14 @@
 
 /* logo styles */
 
-.logoContainer img{
-  margin: 0 auto;
+.logoContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.logoContainer > img{
   border-radius: 50%;
+  /* margin: 0 auto; */
   object-fit: cover;
   width: 100px;
   height: 100px;
