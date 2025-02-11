@@ -57,10 +57,13 @@ export const HomePage = () => {
         </li>
       </ul> */}
 
+<section>
+
       <ul className={styles.servicesList}>
 
         <li className={styles.law}>
           <Link href="/law">
+
           <div className={styles.lawImageContainer}>
             <img src="/images/trio-law-logo.jpeg" alt="trio-law-logo" />
           </div>
@@ -69,6 +72,8 @@ export const HomePage = () => {
             <h3>Legal - Services</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, saepe!</p>
           </div>
+
+          <button>get free consultation</button>
 
           </Link>
         </li>
@@ -84,6 +89,8 @@ export const HomePage = () => {
             
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, molestiae?</p>
           </div>
+
+          <button>book a lesson</button>
           </Link>
         </li>
 
@@ -99,16 +106,18 @@ export const HomePage = () => {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, perspiciatis?</p>
           </div>
 
+          <button>scedule a meeting</button>
+
           </Link>
         </li>
       </ul>
-
+</section>
 {/* ---------------BLOG ARTICLES---------------  */}
 {/* all these articles need to be generated programatically like the cart items via an articles component */}
 
       <section className={styles.blogArticles}>
 
-        <h2 className={styles.blogArticlesTitle}>Our Blog Articles</h2>
+        <h2 className={styles.blogArticlesTitle}>Blog Articles</h2>
 
       <motion.div
       // initial={{ opacity: 0, x: 20 }}
@@ -132,6 +141,8 @@ export const HomePage = () => {
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, quod.</p>
           </div>
 
+          <button className={styles.blogArticleButton}>read more</button>
+
         </div>
 
         <div className={styles.blogArticle}>
@@ -145,6 +156,9 @@ export const HomePage = () => {
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, quod.</p>
       </div>
 
+      <button className={styles.blogArticleButton}>read more</button>
+
+
       </div>
 
   <div className={styles.blogArticle}>
@@ -157,6 +171,9 @@ export const HomePage = () => {
       <h3>Title</h3>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, quod.</p>
     </div>
+
+    <button className={styles.blogArticleButton}>read more</button>
+
   </div>
 
   
@@ -171,33 +188,50 @@ export const HomePage = () => {
   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, quod.</p>
 </div>
 
+<button className={styles.blogArticleButton}>read more</button>
+
+
   </div>
 
 </motion.div>
 
-<div className={styles.blogArticlesWrapper2}>
+<motion.div 
+  initial={{ y: 100, opacity: 0 }} 
+  whileInView={{ y: 0, opacity: 1 }} 
+  viewport={{ once: true, amount: 0.2 }} 
+  transition={{ duration: 1 }}
+  className={styles.blogArticlesWrapper2}>
 
-<div className={styles.blogArticle}>
+<div className={styles.blogArticle2}>
 
-<div className={styles.blogArticleImageContainer}>
+<div className={styles.blogArticleImageContainer2}>
   <img loading="lazy" src="/images/article-photo.jpg" alt="article-image" />
 </div>
 
-<div className={styles.blogArticleText}>
+<div className={styles.blogArticleText2}>
   <h3>Title</h3>
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, quod.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium qui quam deleniti mollitia molestiae provident!</p>
 
-  <div className={styles.articleDetails}>
-    <div className={styles.authorImg}></div>
-    <span className={styles.authorName}>Author Name</span>
+  <div className={styles.author}>
+      <div className={styles.authorImg}></div>
+
+    <div className={styles.authorCredentials}>
+          <p className={styles.authorName}>Author Name</p>
+          <p className={styles.authorProfession}>Author Profession</p>
+          <p className={styles.publishDate}>23-1-2025</p>
+          
+    </div>
+
   </div>
-    <span className={styles.publishDate}>23-1-2025</span>
+  
+<button className={styles.blogArticleButton}>read more</button>
+
 
 </div>
 
 </div>
 
-<div className={styles.blogArticle}>
+{/* <div className={styles.blogArticle}>
 
 <div className={styles.blogArticleImageContainer}>
   <img loading="lazy" src="/images/article-photo.jpg" alt="article-image" />
@@ -221,8 +255,8 @@ export const HomePage = () => {
   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, quod.</p>
 </div>
 
-</div>
-</div>
+</div> */}
+</motion.div>
 
       </section>
 

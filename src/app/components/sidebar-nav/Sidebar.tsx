@@ -26,8 +26,29 @@ export const SideBar = () => {
             <input type="checkbox" name="nested-sidebar-nav" id="nested-sidebar-nav" className={styles.nestedSidebarNav} />
 
             <span className={styles.nestedSidebarNavlist}>item</span>
+            <span className={styles.nestedSidebarNavlist}>item</span>
+            <span className={styles.nestedSidebarNavlist}>item</span>
+            <span className={styles.nestedSidebarNavlist}>item</span>
+            <span className={styles.nestedSidebarNavlist}>item</span>
 
           </p>
+
+          <p className={styles.sidebarNavItem}>
+
+<label htmlFor="nested-sidebar-nav-legal">
+  <span>legal</span>
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-360 280-560h400L480-360Z"/></svg>
+</label>
+
+<input type="checkbox" name="nested-sidebar-nav" id="nested-sidebar-nav-legal" className={styles.nestedSidebarNav} />
+
+<span className={styles.nestedSidebarNavlist}>item</span>
+<span className={styles.nestedSidebarNavlist}>item</span>
+<span className={styles.nestedSidebarNavlist}>item</span>
+<span className={styles.nestedSidebarNavlist}>item</span>
+<span className={styles.nestedSidebarNavlist}>item</span>
+
+</p>
 
         {/* </ul> */}
 

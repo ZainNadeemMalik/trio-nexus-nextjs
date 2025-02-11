@@ -15,21 +15,21 @@ export const Footer = () => {
     </div>
 
     <div className={styles.footerSocials}>
-      <div><a href="#"><img src="" alt="" /></a>facebook-icon</div>
-      <div><a href="#"><img src="" alt="" /></a>instagram-icon</div>
-      <div><a href="#"><img src="" alt="" /></a>gmail-icon</div>
+      <div><a href="#"><img src="#" alt="" /></a>facebook-icon</div>
+      <div><a href="#"><img src="#" alt="" /></a>instagram-icon</div>
+      <div><a href="#"><img src="#" alt="" /></a>gmail-icon</div>
     </div>
 
     <div className={styles.footerSocials}>
-      <div><a href="#"><img src="" alt="" /></a>facebook-icon</div>
-      <div><a href="#"><img src="" alt="" /></a>instagram-icon</div>
-      <div><a href="#"><img src="" alt="" /></a>gmail-icon</div>
+      <div><a href="#"><img src="#" alt="" /></a>facebook-icon</div>
+      <div><a href="#"><img src="#" alt="" /></a>instagram-icon</div>
+      <div><a href="#"><img src="#" alt="" /></a>gmail-icon</div>
     </div>
 
     <div className={styles.footerSocials}>
-      <div><a href="#"><img src="" alt="" /></a>facebook-icon</div>
-      <div><a href="#"><img src="" alt="" /></a>instagram-icon</div>
-      <div><a href="#"><img src="" alt="" /></a>gmail-icon</div>
+      <div><a href="#"><img src="#" alt="" /></a>facebook-icon</div>
+      <div><a href="#"><img src="#" alt="" /></a>instagram-icon</div>
+      <div><a href="#"><img src="#" alt="" /></a>gmail-icon</div>
     </div>
 
     </div>

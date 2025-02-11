@@ -6,7 +6,7 @@
 }
 
 .nestedSidebarNavlist {
-  border: solid;
+  /* border: solid; */
   background-color: white;
   color: black;
   cursor: pointer;
@@ -44,7 +44,7 @@
 
 .sidebarNavItem > label {
   display: flex;
-  border: solid;
+  /* border: solid; */
   align-items: center;
   padding: 0.5em;
 }
