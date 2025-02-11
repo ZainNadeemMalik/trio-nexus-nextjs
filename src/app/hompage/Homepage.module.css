@@ -1,12 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
 .homePage {
   min-height: 100vh;
   padding: 1rem;
   background-color: black;
-  color: white
+  color: white;
+  font-family: "Noto Sans", serif;
 }
 
 /* logo styles */
@@ -139,7 +144,7 @@
 .servicesList > li:first-child {
   background-position: center;
   background-repeat: no-repeat;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Libre Baskerville", serif;
   transition: background-color 0.3s ease;
   background-color: goldenrod;
 
@@ -152,7 +157,7 @@
 .servicesList >li:nth-child(2) {
   background-repeat: no-repeat;
   background-position: center;
-  font-family: "Bebas Neue", serif;
+  font-family: "Slabo 27px", serif;
   letter-spacing: 2px;
   transition: background-color 0.3s ease;
   background-color: blue;
@@ -166,7 +171,8 @@
 .servicesList > li:last-child {
   background-repeat: no-repeat;
   background-position: center;
-  font-family: "Yesteryear", serif;;
+  font-family: "Inter", serif;
+  font-weight: var(--fw-regular);
   transition: background-color 0.3s ease;
   background-color: purple;
 
