@@ -90,7 +90,7 @@ export const HomePage = () => {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, molestiae?</p>
           </div>
 
-          <button>book a lesson</button>
+          <button>book lesson</button>
           </Link>
         </li>
 
@@ -106,7 +106,7 @@ export const HomePage = () => {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, perspiciatis?</p>
           </div>
 
-          <button>scedule a meeting</button>
+          <button>scedule meeting</button>
 
           </Link>
         </li>

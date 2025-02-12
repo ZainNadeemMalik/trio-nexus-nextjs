@@ -1,40 +1,40 @@
 .footer {
-  /* text-align: center; */
-  padding: 3rem;
-  font-size: 1.25rem;
-  border-top: solid 1px white;
-  /* margin-top: 1rem; */
+  padding: 1rem;
+  border-top: solid 1px hsl(0, 0%, 30%);
   background-color: black;
   color: white;
 }
 
 .footer > p {
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: var(--fs-lg);
   text-align: center;
   font-weight: bold;
-  font-size: 5rem;
-  letter-spacing: 15px;
+  letter-spacing: 5px;
+  margin-bottom: 1.5rem;
 }
 
 .footerColumn {
   display: flex;
-  padding: 1rem;
+  /* padding: 1rem; */
   justify-content: space-between;
-  gap: 3rem;
+  /* gap: 3rem; */
 }
 
 .footerContact > p {
-  margin-bottom: 1rem;
-  /* color: hsl(0, 0%, 30%); */
+  /* margin-bottom: 1rem; */
+  color: hsl(0, 0%, 30%);
 }
 
-.footerSocials > div {
-  margin-bottom: 1rem;
+.footerSocials {
+  display: grid;
+  gap: 1rem;
+  /* margin-bottom: 1rem; */
+  color: hsl(0, 0%, 30%);
 }
 
 .footerSocials > *:hover {
-  color: yellow;
+  color: white;
   cursor: pointer;
 }
 
