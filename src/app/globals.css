@@ -14,8 +14,9 @@
   --fs-lg: 2.488rem;
   --fs-xl: 2.986rem;
 
+  --fw-light: 300;
   --fw-regular: 400;
-  --fw-bold: 600;
+  --fw-bold: 700;
   --fw-black: 900;
 
   --gray: hsl(0, 0%, 100%);

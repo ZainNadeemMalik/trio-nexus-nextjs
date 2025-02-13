@@ -20,6 +20,10 @@
   display: block;
 }
 
+.nestedSidebarNav:checked + label > svg {
+  fill: red;
+}
+
 .sidebarNav {
   display: none;
   z-index: 99999;
@@ -47,4 +51,13 @@
   /* border: solid; */
   align-items: center;
   padding: 0.5em;
+  gap: 0.5rem;
+}
+
+.sidebarNavItem > label > span {
+  margin-right: auto;
+}
+
+.sidebarNavItem > label:hover svg {
+  fill: red;
 }

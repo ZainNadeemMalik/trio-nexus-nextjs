@@ -73,7 +73,7 @@ export const HomePage = () => {
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, saepe!</p>
           </div>
 
-          <button>get free consultation</button>
+          <button className={styles.serviceCTA}>get free consultation</button>
 
           </Link>
         </li>
@@ -90,7 +90,7 @@ export const HomePage = () => {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, molestiae?</p>
           </div>
 
-          <button>book lesson</button>
+          <button className={styles.serviceCTA}>book lesson</button>
           </Link>
         </li>
 
@@ -106,7 +106,7 @@ export const HomePage = () => {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, perspiciatis?</p>
           </div>
 
-          <button>scedule meeting</button>
+          <button className={styles.serviceCTA}>scedule meeting</button>
 
           </Link>
         </li>

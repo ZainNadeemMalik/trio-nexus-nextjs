@@ -9,28 +9,32 @@
   text-transform: uppercase;
   font-size: var(--fs-lg);
   text-align: center;
-  font-weight: bold;
+  font-weight: var(--fw-bold);
   letter-spacing: 5px;
   margin-bottom: 1.5rem;
 }
 
 .footerColumn {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  place-items: center;
   /* padding: 1rem; */
-  justify-content: space-between;
-  /* gap: 3rem; */
+  /* justify-content: space-between; */
+  gap: 1rem;
 }
 
 .footerContact > p {
   /* margin-bottom: 1rem; */
-  color: hsl(0, 0%, 30%);
+  color: hsl(0, 0%, 70%);
+  font-weight: var(--fw-light);
 }
 
 .footerSocials {
   display: grid;
   gap: 1rem;
   /* margin-bottom: 1rem; */
-  color: hsl(0, 0%, 30%);
+  color: hsl(0, 0%, 70%);
+  font-weight: var(--fw-light);
 }
 
 .footerSocials > *:hover {

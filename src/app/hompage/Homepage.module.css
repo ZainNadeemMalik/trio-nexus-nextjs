@@ -71,13 +71,14 @@
 }
 
 .titleText {
-  font-weight: var(--fw-bold);
+  font-weight: var(--fw-black);
   font-size: var(--fs-lg);
+  line-height: 1.4;
   text-align: center;
   /* margin-inline: auto; */
   padding: 0;
   color: goldenrod;
-  letter-spacing: 0.1em;
+  /* letter-spacing: 0.1em; */
   /* overflow: hidden;
   white-space: nowrap; */
   /* border-right: 1px solid white; */
@@ -88,8 +89,9 @@
 .titleTextContainer > p {
   text-align: center;
   font-size: var(--fs-lg);
-  font-weight: var(--fw-bold);
-  word-spacing: 0.25rem;
+  line-height: 1.4;
+  font-weight: var(--fw-black);
+  /* word-spacing: 0.25rem; */
 }
 
 /* @keyframes typing {
@@ -137,6 +139,11 @@
   padding: 1rem;
 }
 
+.servicesList > li:hover {
+  box-shadow: 0px 15px 25px rgba(218, 165, 32, 0.3);
+
+}
+
 .servicesList > li:first-child {
   font-family: "Libre Baskerville", serif;
   transition: color 0.3s ease;
@@ -175,7 +182,7 @@
   text-decoration: none;
   /* border: solid yellow; */
   color: inherit;
-  font-weight: bold;
+  font-weight: var(--fw-bold);
   /* flex-grow: 1; */
   display: grid;
   gap: 1.5rem;
@@ -205,20 +212,28 @@
 
 .lawText > h3, .educationText > h3, .techText > h3 {
   font-size: var(--fs-md);
+  font-weight: var(--fw-bold);
+  line-height: 1.4;
 }
 
 .lawText  > p, .techText  > p, .educationText > p {
-  font-size: 1rem;
-  color: hsl(0, 0%, 30%);
+  /* font-size: 1rem; */
+  color: hsl(0, 0%, 70%);
+  font-weight: var(--fw-light);
 }
 
 .law > a > button {
   padding: 0.75em 1.25em;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-weight: var(--fw-bold);
-  background-color: goldenrod;
+  /* background-color: goldenrod; */
+  background-color: black;
   border: none;
   /* border: solid hsl(0, 0%, 60%) 1px; */
+  border: solid hsl(45, 100%, 50%) 1px;
+  letter-spacing: 1px;
+
+
   border-radius: .25rem;
   color: white;
   cursor: pointer;
@@ -226,11 +241,16 @@
 
 .education > a > button {
   padding: 0.75em 1.25em;
-  text-transform: capitalize;
-  font-weight: 700;
-  background-color: blue;
+  text-transform: uppercase;
+  font-weight: var(--fw-bold);
+  /* background-color: blue; */
+  background-color: black;
   border: none;
   /* border: solid hsl(0, 0%, 60%) 1px; */
+  border: solid hsl(45, 100%, 50%) 1px;
+  letter-spacing: 1px;
+
+
   border-radius: .25rem;
   color: white;
   cursor: pointer;
@@ -238,14 +258,21 @@
 
 .tech > a > button {
   padding: 0.75em 1.25em;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-weight: var(--fw-bold);
-  background-color: purple;
+  /* background-color: purple; */
+  background-color: black;
   border: none;
   /* border: solid hsl(0, 0%, 60%) 1px; */
+  border: solid hsl(45, 100%, 50%) 1px;
+  letter-spacing: 1px;
   border-radius: .25rem;
   color: white;
   cursor: pointer;
+}
+
+.serviceCTA:hover {
+  background-color: hsl(45, 100%, 50%);
 }
 
 
@@ -254,6 +281,7 @@
 .blogArticlesTitle {
   font-size: var(--fs-lg);
   font-weight: var(--fw-bold);
+  line-height: 1.4;
   margin-bottom: 3rem;
   text-align: center;
 }
@@ -298,28 +326,34 @@
 
 .blogArticleText > h3 {
   font-size: var(--fs-md);
-  font-weight: bold;
+  font-weight: var(--fw-bold);
+  line-height: 1.4;
   margin-bottom: .5rem;
 }
 
 .blogArticleText > p {
-  color: hsl(0, 0%, 30%);
+  color: hsl(0, 0%, 70%);
+  font-weight: var(--fw-light);
 }
 
 .blogArticleButton {
   padding: .75em 1.25em;
   border: none;
   border-radius: 2.5rem;
-  background-color: goldenrod;
+  /* background-color: goldenrod; */
+  background-color: black;
   color: white;
-  /* border: solid 1px hsl(0, 0%, 30%); */
+  /* border: solid 1px hsl(0, 0%, 60%); */
+  border: solid hsl(45, 100%, 50%) 1px;
+
   cursor: pointer;
   text-transform: capitalize;
-  font-weight: bold;
+  font-weight: var(--fw-bold);
 }
 
 .blogArticleButton:hover {
-  /* background-color: limegreen; */
+  background-color: hsl(45, 100%, 50%);
+
 }
 
 .blogArticle2{
@@ -335,12 +369,15 @@
 }
 
 .blogArticleText2 > h3 {
-  font-size: var(--fs-lg);
+  font-size: var(--fs-md);
+  font-weight: var(--fw-bold);
+  line-height: 1.4;
 }
 
 .blogArticleText2 > p {
-  color: hsl(0, 0%, 30%);
-  font-size: var(--fs-md);
+  color: hsl(0, 0%, 70%);
+  font-size: var(--fs-lg);
+  font-weight: var(--fw-light);
 }
 
 .author {
@@ -348,10 +385,16 @@
   gap: 1rem;
 }
 
+.authorName {
+  font-weight: var(--fw-bold);
+}
+
 .authorProfession {
-  color: hsl(0, 0%, 30%);
+  color: hsl(0, 0%, 70%);
+  font-weight: var(--fw-light);
 }
 
 .publishDate {
-  color: hsl(0, 0%, 30%);
+  color: hsl(0, 0%, 70%);
+  font-weight: var(--fw-light);
 }
