@@ -10,6 +10,7 @@
   --p: 1rem/1.4em var(--ff);
   --p: 0.875rem/1.4em var(--ff); */
 
+  --fs-sm: 0.9275rem;
   --fs-md: 2.074rem;
   --fs-lg: 2.488rem;
   --fs-xl: 2.986rem;

@@ -139,9 +139,10 @@ export const HomePage = () => {
           <div className={styles.blogArticleText}>
             <h3>Title</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, quod.</p>
+          <button className={styles.blogArticleButton}>read more</button>
+
           </div>
 
-          <button className={styles.blogArticleButton}>read more</button>
 
         </div>
 
@@ -154,9 +155,9 @@ export const HomePage = () => {
       <div className={styles.blogArticleText}>
         <h3>Title</h3>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, quod.</p>
+      <button className={styles.blogArticleButton}>read more</button>
       </div>
 
-      <button className={styles.blogArticleButton}>read more</button>
 
 
       </div>
@@ -170,9 +171,9 @@ export const HomePage = () => {
     <div className={styles.blogArticleText}>
       <h3>Title</h3>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, quod.</p>
+    <button className={styles.blogArticleButton}>read more</button>
     </div>
 
-    <button className={styles.blogArticleButton}>read more</button>
 
   </div>
 
@@ -186,9 +187,9 @@ export const HomePage = () => {
 <div className={styles.blogArticleText}>
   <h3>Title</h3>
   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, quod.</p>
+<button className={styles.blogArticleButton}>read more</button>
 </div>
 
-<button className={styles.blogArticleButton}>read more</button>
 
 
   </div>

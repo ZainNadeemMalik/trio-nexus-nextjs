@@ -16,7 +16,7 @@
 
 .footerColumn {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(150px, 100%), 1fr));
   place-items: center;
   /* padding: 1rem; */
   /* justify-content: space-between; */
