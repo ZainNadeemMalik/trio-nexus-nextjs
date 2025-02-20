@@ -72,7 +72,7 @@
 
 .titleText {
   font-weight: var(--fw-black);
-  font-size: var(--fs-lg);
+  font-size: var(--fs-md);
   line-height: 1.4;
   text-align: center;
   /* margin-inline: auto; */
@@ -84,6 +84,17 @@
   /* border-right: 1px solid white; */
   /* animation: typing 3s steps(10) forwards,
   blink 1s step-end infinite; */
+
+  background-image: linear-gradient(90deg,
+  hsl(45, 100%, 40%) 30%,  /* Yellow starts early and fades */
+  blue 50%,                /* Blue blends in the middle */
+  purple 70%
+   );
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradientAnimation 4s infinite linear alternate;
 }
 
 .titleTextContainer > p {
@@ -92,6 +103,14 @@
   line-height: 1.4;
   font-weight: var(--fw-black);
   /* word-spacing: 0.25rem; */
+
+
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 0%; }
+  /* 50% { background-position: 100% 50%; } */
+  100% { background-position: 100% 0%; }
 }
 
 /* @keyframes typing {
@@ -139,6 +158,8 @@
   padding: 1rem;
   /* background-color: hsl(0, 0%, 10%); */
   border: hsl(0, 0%, 20%) 0.5px solid;
+  box-shadow: 0px 15px 25px hsla(0, 0%, 20%, 0.3);
+
 }
 
 .servicesList > li:hover {
@@ -228,6 +249,8 @@
   font-weight: var(--fw-bold);
   line-height: 1.4;
   margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .lawText  > p, .techText  > p, .educationText > p {
@@ -307,7 +330,7 @@
 
 .blogArticleWrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(150px, 100%), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(275px, 100%), 1fr));
   gap: 2rem;
   margin-bottom: 1rem;
 }
@@ -350,7 +373,7 @@
 }
 
 .blogArticleText {
-  padding: 1rem;
+  padding: 0.5rem;
   display: grid;
 }
 
@@ -393,14 +416,15 @@
 
 .blogArticle2{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
 }
 
 .blogArticleText2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-inline: 1rem;
+  gap: 1rem;
+  /* padding-inline: 1rem; */
 }
 
 .blogArticleText2 > h3 {

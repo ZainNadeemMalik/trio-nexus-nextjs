@@ -69,7 +69,7 @@ export const HomePage = () => {
           </div>
 
           <div className={styles.lawText}>
-            <h3>Legal - Services</h3>
+            <h3>Law</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, saepe!</p>
           </div>
 
@@ -85,7 +85,7 @@ export const HomePage = () => {
           </div>
 
           <div className={styles.educationText}>
-            <h3>Education - Services</h3>
+            <h3>Education</h3>
             
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, molestiae?</p>
           </div>
@@ -102,7 +102,7 @@ export const HomePage = () => {
           </div>
 
           <div className={styles.techText}>
-            <h3>Technological - Services </h3>
+            <h3>Technology</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, perspiciatis?</p>
           </div>
 
@@ -211,7 +211,7 @@ export const HomePage = () => {
 
 <div className={styles.blogArticleText2}>
   <h3>Title</h3>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium qui quam deleniti mollitia molestiae provident!</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
   <div className={styles.author}>
       <div className={styles.authorImg}></div>
