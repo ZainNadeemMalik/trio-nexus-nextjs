@@ -1,5 +1,6 @@
 .footer {
-  padding: 1rem;
+  padding-inline: 1rem;
+  padding-block: 4rem;
   border-top: solid 1px hsl(0, 0%, 30%);
   background-color: black;
   color: white;

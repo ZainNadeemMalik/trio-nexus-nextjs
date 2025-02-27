@@ -11,7 +11,18 @@ import { motion } from "framer-motion"
 export const HomePage = () => {
   return (
     <div className={styles.homePage}>
-        <nav className={styles.nav}>
+
+      <div className={styles.searchBarContainer}>
+
+        <p className={styles.trio}>trio</p>
+
+      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
+
+        <input type="text" name="" id="headerSearchbar" className={styles.headerSearchbar} placeholder="What are you looking for?"/>
+
+      </div>
+
+      <nav className={styles.nav}>
         <SideBar />
         <Link href="/">Home</Link>
         <Link href="/law">Legal</Link>
@@ -57,7 +68,7 @@ export const HomePage = () => {
         </li>
       </ul> */}
 
-<section>
+<section className={styles.servicesSection}>
 
       <ul className={styles.servicesList}>
 
@@ -258,6 +269,63 @@ export const HomePage = () => {
 
 </div> */}
 </motion.div>
+
+  <div className={styles.blogArticles3}>
+
+  <div className={styles.blogArticleImageContainer}>
+  <img loading="lazy" src="/images/article-photo.jpg" alt="article-image" />
+</div>
+
+<div className={styles.a}>
+<div className={styles.articleTags}>
+      <p>Law</p>
+      <p>Family</p>
+    </div>
+  <h3>Title</h3>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, quod.</p>
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
+</div>
+
+  </div>
+
+  <div className={styles.blogArticles3}>
+
+<div className={styles.blogArticleImageContainer}>
+<img loading="lazy" src="/images/article-photo.jpg" alt="article-image" />
+</div>
+
+<div className={styles.a}>
+<div className={styles.articleTags}>
+    <p>Law</p>
+    <p>Family</p>
+  </div>
+<h3>Title</h3>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, quod.</p>
+
+<svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
+</div>
+
+</div>
+
+<div className={styles.blogArticles3}>
+
+<div className={styles.blogArticleImageContainer}>
+<img loading="lazy" src="/images/article-photo.jpg" alt="article-image" />
+</div>
+
+<div className={styles.a}>
+<div className={styles.articleTags}>
+    <p>Law</p>
+    <p>Family</p>
+  </div>
+<h3>Title</h3>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, quod.</p>
+
+<svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
+</div>
+
+</div>
 
       </section>
 
